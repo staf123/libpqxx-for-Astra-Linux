@@ -13,7 +13,7 @@ jobs:
           command: apt update
       - run:
           name: Install
-          command: apt install -y lsb-release python3 cmake postgrespro-std-14 libpq-dev
+          command: apt install -y lsb-release python3 cmake postgrespro-std-14-contrib libpq-dev
             postgrespro-server-dev-all build-essential autoconf dh-autoreconf
             autoconf-archive automake cppcheck clang
       - run:
